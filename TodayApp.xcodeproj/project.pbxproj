@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0DB37728B3CBE2003AD9CA /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DB37628B3CBE2003AD9CA /* UIColor+Today.swift */; };
+		BB0DB37928B3CC15003AD9CA /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DB37828B3CC15003AD9CA /* Date+Today.swift */; };
 		BB9265AB28B3C21500E30414 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9265AA28B3C21500E30414 /* Reminder.swift */; };
 		BBF9EE2928B3C0DA00A1AC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9EE2828B3C0DA00A1AC4C /* AppDelegate.swift */; };
 		BBF9EE2B28B3C0DA00A1AC4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9EE2A28B3C0DA00A1AC4C /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB0DB37628B3CBE2003AD9CA /* UIColor+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
+		BB0DB37828B3CC15003AD9CA /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		BB9265AA28B3C21500E30414 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		BBF9EE2528B3C0DA00A1AC4C /* TodayApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF9EE2828B3C0DA00A1AC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,8 @@
 			isa = PBXGroup;
 			children = (
 				BB9265AA28B3C21500E30414 /* Reminder.swift */,
+				BB0DB37628B3CBE2003AD9CA /* UIColor+Today.swift */,
+				BB0DB37828B3CC15003AD9CA /* Date+Today.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 			files = (
 				BBF9EE2D28B3C0DA00A1AC4C /* ReminderListViewController.swift in Sources */,
 				BBF9EE2928B3C0DA00A1AC4C /* AppDelegate.swift in Sources */,
+				BB0DB37728B3CBE2003AD9CA /* UIColor+Today.swift in Sources */,
+				BB0DB37928B3CC15003AD9CA /* Date+Today.swift in Sources */,
 				BBF9EE2B28B3C0DA00A1AC4C /* SceneDelegate.swift in Sources */,
 				BB9265AB28B3C21500E30414 /* Reminder.swift in Sources */,
 			);
