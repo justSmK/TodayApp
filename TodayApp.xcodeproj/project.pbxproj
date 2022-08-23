@@ -52,9 +52,10 @@
 		BB0DB37A28B3D415003AD9CA /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BB47BF6928B52B6F00BAA660 /* ReminderDoneButton.swift */,
 				BBF9EE2C28B3C0DA00A1AC4C /* ReminderListViewController.swift */,
-				BB0DB37B28B3D437003AD9CA /* ReminderListViewController+DataSource.swift */,
 				BB47BF6B28B52BE300BAA660 /* ReminderListViewController+Actions.swift */,
+				BB0DB37B28B3D437003AD9CA /* ReminderListViewController+DataSource.swift */,
 			);
 			path = ListViewController;
 			sourceTree = "<group>";
@@ -96,7 +97,6 @@
 				BBF9EE3128B3C0DA00A1AC4C /* Assets.xcassets */,
 				BBF9EE3328B3C0DA00A1AC4C /* LaunchScreen.storyboard */,
 				BBF9EE3628B3C0DA00A1AC4C /* Info.plist */,
-				BB47BF6928B52B6F00BAA660 /* ReminderDoneButton.swift */,
 			);
 			path = TodayApp;
 			sourceTree = "<group>";
