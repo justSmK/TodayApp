@@ -15,6 +15,7 @@ class ReminderViewController: UICollectionViewController {
     var reminder: Reminder
     private var dataSource: DataSource!
     
+    
     init(reminder: Reminder) {
         self.reminder = reminder
         var listConfiguration = UICollectionLayoutListConfiguration(appearance: .insetGrouped)
